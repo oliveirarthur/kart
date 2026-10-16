@@ -1,0 +1,117 @@
+
+kart-tatu.png
+size: 512, 512
+filter: Linear, Linear
+pma: false
+angle0/wheelRL
+  bounds: 1, 1, 18, 33
+angle0/wheelRR
+  bounds: 21, 1, 18, 33
+angle0/body
+  bounds: 41, 1, 69, 45
+angle0/wheelFL
+  bounds: 112, 1, 14, 28
+angle0/wheelFR
+  bounds: 128, 1, 14, 28
+angle0/torso
+  bounds: 144, 1, 30, 28
+angle0/head
+  bounds: 176, 1, 27, 42
+angle1/wheelRL
+  bounds: 205, 1, 35, 36
+angle1/wheelRR
+  bounds: 242, 1, 35, 36
+angle1/body
+  bounds: 279, 1, 102, 51
+angle1/wheelFL
+  bounds: 383, 1, 29, 30
+angle1/wheelFR
+  bounds: 414, 1, 29, 30
+angle1/torso
+  bounds: 445, 1, 36, 33
+angle1/head
+  bounds: 1, 54, 47, 46
+angle2/wheelRL
+  bounds: 50, 54, 33, 35
+angle2/wheelRR
+  bounds: 85, 54, 33, 35
+angle2/body
+  bounds: 120, 54, 107, 53
+angle2/wheelFL
+  bounds: 229, 54, 28, 30
+angle2/wheelFR
+  bounds: 259, 54, 28, 30
+angle2/torso
+  bounds: 289, 54, 23, 31
+angle2/head
+  bounds: 314, 54, 48, 44
+angle3/wheelRL
+  bounds: 364, 54, 35, 36
+angle3/wheelRR
+  bounds: 401, 54, 35, 36
+angle3/body
+  bounds: 1, 109, 102, 63
+angle3/wheelFL
+  bounds: 105, 109, 29, 30
+angle3/wheelFR
+  bounds: 136, 109, 29, 30
+angle3/torso
+  bounds: 167, 109, 36, 33
+angle3/head
+  bounds: 205, 109, 47, 46
+angle4/wheelRL
+  bounds: 254, 109, 18, 33
+angle4/wheelRR
+  bounds: 274, 109, 18, 33
+angle4/body
+  bounds: 294, 109, 69, 64
+angle4/wheelFL
+  bounds: 365, 109, 14, 28
+angle4/wheelFR
+  bounds: 381, 109, 14, 28
+angle4/torso
+  bounds: 397, 109, 30, 28
+angle4/head
+  bounds: 429, 109, 27, 45
+angle5/wheelRL
+  bounds: 458, 109, 35, 36
+angle5/wheelRR
+  bounds: 1, 175, 35, 36
+angle5/body
+  bounds: 38, 175, 102, 63
+angle5/wheelFL
+  bounds: 142, 175, 29, 30
+angle5/wheelFR
+  bounds: 173, 175, 29, 30
+angle5/torso
+  bounds: 204, 175, 36, 33
+angle5/head
+  bounds: 242, 175, 47, 46
+angle6/wheelRL
+  bounds: 291, 175, 33, 35
+angle6/wheelRR
+  bounds: 326, 175, 33, 35
+angle6/body
+  bounds: 361, 175, 107, 53
+angle6/wheelFL
+  bounds: 470, 175, 28, 30
+angle6/wheelFR
+  bounds: 1, 240, 28, 30
+angle6/torso
+  bounds: 31, 240, 23, 31
+angle6/head
+  bounds: 56, 240, 48, 44
+angle7/wheelRL
+  bounds: 106, 240, 35, 36
+angle7/wheelRR
+  bounds: 143, 240, 35, 36
+angle7/body
+  bounds: 180, 240, 102, 51
+angle7/wheelFL
+  bounds: 284, 240, 29, 30
+angle7/wheelFR
+  bounds: 315, 240, 29, 30
+angle7/torso
+  bounds: 346, 240, 36, 33
+angle7/head
+  bounds: 384, 240, 47, 46

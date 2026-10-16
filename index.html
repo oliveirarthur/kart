@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#0d1b2a" />
+    <title>Kart</title>
+    <style>
+      :root { color-scheme: dark; }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 100%; height: 100%; overflow: hidden; background: #0d1b2a; }
+      body {
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+        -webkit-user-select: none; user-select: none;
+        -webkit-tap-highlight-color: transparent;
+        touch-action: none; overscroll-behavior: none;
+      }
+      #game { position: fixed; inset: 0; }
+      #game canvas { display: block; }
+      #rotate {
+        position: fixed; inset: 0; z-index: 10; display: none;
+        align-items: center; justify-content: center; flex-direction: column;
+        gap: 1.5rem; background: #0d1b2a; color: #e8eef5; text-align: center;
+        padding: 2rem calc(2rem + env(safe-area-inset-right)) 2rem calc(2rem + env(safe-area-inset-left));
+      }
+      #rotate.show { display: flex; }
+      #rotate svg { width: 88px; height: 88px; animation: tip 2.4s ease-in-out infinite; }
+      #rotate p { font-size: 1.05rem; font-weight: 600; letter-spacing: 0.01em; }
+      @keyframes tip {
+        0%, 40%, 100% { transform: rotate(0deg); }
+        60%, 90% { transform: rotate(-90deg); }
+      }
+      @media (prefers-reduced-motion: reduce) { #rotate svg { animation: none; } }
+    </style>
+    <script type="module" crossorigin src="/kart/assets/index-D5_0Cq-C.js"></script>
+    <link rel="stylesheet" crossorigin href="/kart/assets/index-AISsXChx.css">
+  </head>
+  <body>
+    <div id="game"></div>
+    <div id="rotate" role="alertdialog" aria-live="polite">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#f4b740" stroke-width="1.6"
+           stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <rect x="7" y="2" width="10" height="20" rx="2" />
+        <path d="M12 18h.01" />
+      </svg>
+      <p>Gire o celular para jogar</p>
+    </div>
+  </body>
+</html>
